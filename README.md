@@ -1,59 +1,82 @@
-# WebAssessmentTmrnd
+# TMRND Assessment - Adlina Najwa
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+## Project Description
 
-## Development server
+This is a single-page Angular web application developed for the TMRND technical assessment. The app demonstrates proficiency in modern web development using Angular, following clean architecture principles and good coding practices.
 
-To start a local development server, run:
+## Demo
 
-```bash
+🔗 [Live Demo on Vercel](https://asessment-tmrnd-adlina.vercel.app/login)
+
+## Tech Stack
+
+- Framework: Angular
+- Language: TypeScript, HTML, CSS
+- Deployment: Vercel
+
+## Project Structure
+
+src/
+├── app/ # Angular components and logic
+├── assets/ # Static assets
+├── environments/ # Environment configs
+└── index.html
+
+
+## Installation & Development
+
+To run the project locally:
+
+1. Clone the repository:
+git clone https://github.com/adlinanajwa/Asessment-TMRND-Adlina.git
+cd Asessment-TMRND-Adlina
+
+
+2. Install dependencies:
+npm install
+
+
+
+3. Run the development server:
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+4. Open `http://localhost:4200/` in your browser.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+> Ensure you have Angular CLI installed globally:
+npm install -g @angular/cli
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Deployment Guide
 
-```bash
-ng generate --help
-```
+This application is deployed using [Vercel](https://vercel.com), a cloud platform for frontend apps.
 
-## Building
+ Steps:
+1. Push the code to GitHub
+2. Go to [vercel.com](https://vercel.com), sign in with GitHub
+3. Import the GitHub repository
+4. Configure:
+   - Framework Preset: Angular
+   - Output Directory: dist/your-project-name
+5. Click Deploy
 
-To build the project run:
+Vercel automatically builds and hosts the Angular app. Any push to main will trigger a redeploy.
 
-```bash
-ng build
-```
+## Testing
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- Unit tests are written using Angular's TestBed with Jasmine and Karma.
+- Tests cover component creation and basic functionality.
+- Run tests with:
 
 ```bash
-ng test
-```
+ng test --watch=false
 
-## Running end-to-end tests
+## GitLab Access
 
-For end-to-end (e2e) testing, run:
+The project source code is also hosted on a private GitLab repository, and the following users have been granted Developer access for evaluation purposes:
 
-```bash
-ng e2e
-```
+- kengcc@gmail.com
+- norfazlinairyani@gmail.com
+- azrihasin1999@gmail.com
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Thank you for reviewing!
