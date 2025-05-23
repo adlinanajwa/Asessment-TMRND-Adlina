@@ -68,7 +68,6 @@ Vercel automatically builds and hosts the Angular app. Any push to main will tri
 - Tests cover component creation and basic functionality.
 - Run tests with:
 
-```bash
 ng test --watch=false
 
 ## GitLab Access
