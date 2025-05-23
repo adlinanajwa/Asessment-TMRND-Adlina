@@ -1,0 +1,31 @@
+.login-background {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #e3f2fd, #bbdefb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  text-align: center;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+}
